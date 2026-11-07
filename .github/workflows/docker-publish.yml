@@ -8,8 +8,8 @@ on:
       - 'v*.*.*'      # Se ejecuta al subir un Tag de versión (ej. v1.0.0, v1.0.1)
 
 env:
-  DOCKERHUB_USER: jeansimon16
-  IMAGE_NAME: mi-backend
+  DOCKERHUB_USER: carolinaortiz
+  IMAGE_NAME: prueba-backend
 
 jobs:
   build-and-push:
