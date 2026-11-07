@@ -9,7 +9,7 @@ on:
 
 env:
   DOCKERHUB_USER: carolinaortiz
-  IMAGE_NAME: prueba-backend
+  IMAGE_NAME: prueba-backend-1
 
 jobs:
   build-and-push:
