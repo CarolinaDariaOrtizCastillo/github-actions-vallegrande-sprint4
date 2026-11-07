@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: vallegrande-sprint4-backend
+
+server:
+  port: 8080
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
